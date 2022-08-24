@@ -1,0 +1,5 @@
+nomeFuncionario = input()
+salarioFixo = float(input())
+valorVendasEfetuadas = float(input())
+TOTAL = salarioFixo + (valorVendasEfetuadas * 0.15)
+print(f'TOTAL = R$ {TOTAL:.2f}')
